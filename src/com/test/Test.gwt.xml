@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='test'>
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name='com.google.gwt.query.Query'/>
+  <entry-point class='com.test.client.Test'/>
+  <source path='client'/>
+  <source path='shared'/>
+  <add-linker name="xsiframe"/>
+</module>
